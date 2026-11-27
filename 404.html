@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>안동얀마농기계</title>
+<meta name="description" content="내 기계 중고시세 확인 · 보조사업 기종 견적 · 위탁 판매 — 안동얀마농기계 054-855-9090">
+<meta property="og:title" content="안동얀마농기계">
+<meta property="og:description" content="평생 써도 후회 없는 기계, 끝까지 책임지는 서비스 · 내 기계 중고시세 확인">
+<meta property="og:image" content="https://ay-9090.github.io/og.png">
+<meta property="og:url" content="https://ay-9090.github.io/">
+<meta name="theme-color" content="#b91c1c">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/icon-192.png">
+<link rel="apple-touch-icon" href="/icon-192.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#eef0f3;font-family:'Noto Sans KR',sans-serif;color:#1f2328;-webkit-text-size-adjust:100%}
+.wrap{max-width:480px;margin:0 auto;background:#fff;min-height:100vh;display:flex;flex-direction:column}
+.top{background:#b91c1c;color:#fff;padding:12px 16px;display:flex;align-items:center;gap:10px;min-height:56px}
+.top .t{font-size:18px;font-weight:700;flex:1}
+.top a{color:#fff;text-decoration:none;font-size:14px;display:flex;align-items:center;gap:6px;min-height:44px}
+.back{background:none;border:0;color:#fff;min-width:44px;min-height:44px;display:flex;align-items:center;justify-content:center;padding:0;cursor:pointer}
+.pad{padding:20px}
+h1{font-size:23px;margin:0 0 6px;line-height:1.4}
+.slogan{font-size:17px;color:#b3121b;font-weight:500;line-height:1.6;margin:4px 0 6px}
+.muted{font-size:15px;color:#4b515a;line-height:1.6}
+.small{font-size:13px;color:#5b616b;line-height:1.6}
+.cards{display:flex;flex-direction:column;gap:12px;padding:6px 20px 14px}
+.card{width:100%;text-align:left;font-family:inherit;color:#1f2328;border:1px solid #c9ccd1;border-radius:14px;padding:16px 18px;display:flex;gap:14px;align-items:center;background:#fff;min-height:44px;cursor:pointer}
+.card.main{border:2px solid #1d4ed8;background:#eff4ff}
+.card b{display:block;font-size:18px}
+.card span.s{display:block;font-size:14px;color:#4b515a;margin-top:2px}
+.card .arr{margin-left:auto;font-size:22px;color:#1d4ed8}
+.sec{margin:6px 20px 0;border-top:1px solid #e3e5e8;padding-top:18px;display:flex;flex-direction:column;gap:10px}
+.sec h2{font-size:18px;margin:0}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.btn{min-height:52px;border-radius:12px;font-size:16px;font-weight:700;font-family:inherit;cursor:pointer;border:0;display:flex;align-items:center;justify-content:center;gap:6px;text-decoration:none}
+.btn.kakao{background:#fee500;color:#191600}
+.btn.line{background:#fff;border:2px solid #1d4ed8;color:#1d4ed8}
+.btn.blue{background:#1d4ed8;color:#fff;min-height:56px;font-size:17px;width:100%}
+.btn.red{background:#b91c1c;color:#fff;width:100%}
+.btn.gray{background:#fff;border:1px solid #c9ccd1;color:#1f2328;width:100%;font-weight:500}
+.btn:disabled{opacity:.6}
+.app{margin:18px 20px 4px;border:1px solid #e8c766;background:#fff8e6;border-radius:12px;padding:14px 16px;display:flex;gap:12px;align-items:center;cursor:pointer;width:calc(100% - 40px);font-family:inherit;text-align:left;color:#1f2328}
+.foot{margin-top:auto;padding:18px 20px;font-size:13px;color:#5b616b;line-height:1.7;background:#f6f7f9}
+.foot a{color:#5b616b}
+.form{display:flex;flex-direction:column;gap:18px;padding:22px 20px}
+.f{display:flex;flex-direction:column;gap:8px}
+label,.lb{font-size:14px;font-weight:500;color:#4b515a}
+.req{color:#b91c1c}
+input,select,textarea{min-height:48px;border:1px solid #c9ccd1;border-radius:10px;padding:0 14px;font-size:16px;font-family:inherit;background:#fff;color:#1f2328;width:100%;min-width:0}
+textarea{padding:12px 14px;resize:none}
+input.err{border-color:#b91c1c}
+.row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.pills{display:flex;flex-wrap:wrap;gap:6px}
+.pill{min-height:44px;padding:0 14px;border-radius:22px;font-size:15px;font-family:inherit;border:1px solid #c9ccd1;background:#fff;color:#1f2328;cursor:pointer}
+.pill.on{border:2px solid #1d4ed8;background:#eff4ff;color:#1d4ed8;font-weight:700}
+.mode{min-height:64px;padding:10px;border-radius:12px;font-family:inherit;text-align:left;border:1px solid #c9ccd1;background:#fff;color:#1f2328;cursor:pointer}
+.mode.on{border:2px solid #1d4ed8;background:#eff4ff;color:#1d4ed8}
+.mode b{display:block;font-size:16px}.mode span{display:block;font-size:13px;margin-top:2px}
+.box{border:1px solid #e3e5e8;border-radius:12px;padding:16px;background:#eff4ff;display:flex;flex-direction:column;gap:4px}
+.box .big{font-size:22px;font-weight:700;line-height:1.4}
+.thumbs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+.thumbs div{aspect-ratio:1;border-radius:10px;background:#f6f7f9 center/cover no-repeat;border:1px dashed #9aa0a8;font-size:12px;color:#5b616b;display:flex;align-items:center;justify-content:center;text-align:center}
+.check{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:#4b515a;line-height:1.5}
+.check input{width:22px;height:22px;min-height:0;margin:0;flex-shrink:0}
+.alert{color:#b91c1c;font-weight:700;font-size:14px}
+.done{padding:48px 24px;display:flex;flex-direction:column;gap:14px;align-items:center;text-align:center}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.hide{display:none!important}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:flex-end;justify-content:center;z-index:9}
+.sheet{background:#fff;border-radius:16px 16px 0 0;padding:22px 20px 28px;max-width:480px;width:100%;display:flex;flex-direction:column;gap:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<!-- ========== 처음 화면 ========== -->
+<section id="v-home">
+  <div class="top"><div class="t">안동얀마농기계</div>
+    <a href="tel:0548559090"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>054-855-9090</a></div>
+  <div class="pad" style="padding-bottom:6px">
+    <h1 id="hello">반갑습니다</h1>
+    <div class="slogan">평생 써도 후회 없는 기계,<br>끝까지 책임지는 서비스</div>
+    <div class="muted" id="hello-sub">궁금하신 것을 하나 눌러 보세요.</div>
+  </div>
+  <div class="cards">
+    <button class="card main" data-go="trade">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 0 1 14-5.3M20 12a8 8 0 0 1-14 5.3"/><path d="M18 3v4h-4M6 21v-4h4"/></svg>
+      <span><b>내 기계 보상가 확인</b><span class="s">중고시세 기준으로 바로 알려 드려요</span></span><span class="arr" aria-hidden="true">›</span></button>
+    <button class="card" data-go="quote">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12V4h8l10 10-8 8L3 12z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg>
+      <span><b>보조사업 기종 견적 보기</b><span class="s">트랙터 · 콤바인 · 이앙기 · 관리기 등</span></span><span class="arr" aria-hidden="true">›</span></button>
+    <button class="card" data-go="ask">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4V5z"/><path d="M8 9h8M8 12h5"/></svg>
+      <span><b>궁금한 거 물어보기</b><span class="s">전화나 문자로 바로 답해 드려요</span></span><span class="arr" aria-hidden="true">›</span></button>
+  </div>
+  <div class="sec">
+    <h2>기계 바꾸실 이웃분께 알려 주세요</h2>
+    <div class="grid2">
+      <button class="btn kakao" id="share-kakao">카카오톡 보내기</button>
+      <a class="btn line" id="share-sms" href="#">문자로 보내기</a>
+    </div>
+    <div class="small">보내는 링크에는 손님 정보가 들어가지 않습니다. 소개해 주신 이웃분이 얀마 가족이 되시면, 감사의 뜻으로 공임 50만원을 지원해 드립니다.</div>
+  </div>
+  <button class="app hide" id="app-btn">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#8a5a00" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M12 8v6M9 11h6"/></svg>
+    <span style="flex:1"><b style="display:block;font-size:16px">얀마 고객님, 홈 화면에 추가하기</b><span class="small" style="color:#4b515a">누르면 휴대폰 첫 화면에서 바로 여실 수 있어요</span></span>
+  </button>
+  <div class="foot" style="margin-top:18px">안동시 서후면 학가산온천길 80 · <a href="tel:0548559090">054-855-9090</a><br>
+    <a href="https://m.site.naver.com/2l9Gb">유튜브 「밭두렁아이돌기현」</a> · <a href="https://blog.naver.com/andong9090">네이버 블로그</a> · <a href="https://smartstore.naver.com/rlgus">스마트스토어</a><br>
+    문자 수신을 원치 않으시면 080-500-4233 (무료)</div>
+</section>
+
+<!-- ========== 보상가 확인 · 위탁 판매 ========== -->
+<section id="v-trade" class="hide">
+  <div class="top"><button class="back" data-go="home" aria-label="뒤로"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button><div class="t">내 기계 보상가 확인</div></div>
+  <div class="form" id="trade-form">
+    <div class="f"><div class="lb">어떻게 하실 건가요?</div>
+      <div class="grid2" id="t-mode">
+        <button type="button" class="mode on" data-v="보상가"><b>새 기계로 바꾸기</b><span>보상가 받고 교체</span></button>
+        <button type="button" class="mode" data-v="위탁"><b>위탁 판매 요청</b><span>가게가 대신 팔아 드림</span></button>
+      </div></div>
+    <div class="row">
+      <div class="f"><label for="t-kind">기계 종류</label>
+        <select id="t-kind"><option>트랙터</option><option>콤바인</option><option>이앙기</option><option>관리기</option><option>기타(직접 입력)</option></select></div>
+      <div class="f"><label for="t-brand">회사</label>
+        <select id="t-brand"><option>얀마</option><option>대동</option><option>국제</option><option>TYM</option><option>LS</option><option>구보다</option><option>아세아</option><option>존디어</option><option>기타</option></select></div>
+    </div>
+    <input id="t-kind-etc" class="hide" placeholder="기계 종류를 적어 주세요 (예: 땅속작물수확기)" aria-label="기계 종류 직접 입력">
+    <div class="row">
+      <div class="f"><label for="t-model">모델</label><input id="t-model" placeholder="예: YT470" autocomplete="off"></div>
+      <div class="f"><label for="t-cls">마력 · 조수</label><select id="t-cls"></select></div>
+    </div>
+    <div class="row">
+      <div class="f"><label for="t-year">연식 <span class="req">*필수</span></label><input id="t-year" inputmode="numeric" placeholder="예: 2018"></div>
+      <div class="f"><label for="t-hours">사용 시간 <span class="req">*필수</span></label><input id="t-hours" inputmode="numeric" placeholder="예: 1,200"></div>
+    </div>
+    <div class="small" style="margin-top:-8px">사용 시간은 계기판의 시간 숫자(아워미터)를 보고 적어 주세요.</div>
+    <div class="f"><div class="lb">내 기계 사진 (없으면 비워 두셔도 됩니다)</div>
+      <div class="small" id="t-photo-hint">사진이 있으면 보상가를 더 정확하게 알려 드릴 수 있어요 · 최대 5장</div>
+      <div class="grid2">
+        <label class="btn line" style="cursor:pointer"><input type="file" accept="image/*" capture="environment" class="hide" id="t-cam">지금 찍기</label>
+        <label class="btn line" style="cursor:pointer"><input type="file" accept="image/*" multiple class="hide" id="t-pick">앨범에서 고르기</label>
+      </div>
+      <div class="thumbs" id="t-thumbs"></div>
+    </div>
+    <div class="f hide" id="t-want-wrap"><label for="t-want">원하시는 판매가 (모르시면 비워 두셔도 됩니다)</label>
+      <div style="display:flex;gap:8px;align-items:center"><input id="t-want" inputmode="numeric" placeholder="예: 1,500"><span>만원</span></div>
+      <div class="small">안동얀마가 기계를 점검하고 사진을 찍어 대신 팔아 드립니다. 수수료 등 조건은 상담 때 안내해 드려요.</div></div>
+    <div class="box" id="t-price"><div class="small" style="color:#4b515a">중고시세 기준, 대략 이 정도예요</div><div class="big" id="t-price-v">연식 · 사용 시간을 넣으면 보여 드려요</div>
+      <div class="small">관리가 잘 된 기계는 더 받으실 수 있어요. 정확한 금액은 기계를 직접 보고 알려 드립니다.</div></div>
+    <div class="who hide">
+      <div class="row"><div class="f"><label for="t-name">성함</label><input id="t-name" autocomplete="name"></div>
+      <div class="f"><label for="t-phone">휴대폰 <span class="req">*</span></label><input id="t-phone" inputmode="tel" autocomplete="tel" placeholder="010-0000-0000"></div></div>
+    </div>
+    <input class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" id="t-hp">
+    <div class="alert hide" id="t-err" role="alert"></div>
+    <button type="button" class="btn blue" id="t-send">정확한 보상가 연락 받기</button>
+    <label class="check"><input type="checkbox" id="t-ad"><span>새 기계 · 혜택 소식을 문자로 받겠습니다 (선택, 광고 수신 동의)</span></label>
+  </div>
+</section>
+
+<!-- ========== 보조사업 기종 견적 ========== -->
+<section id="v-quote" class="hide">
+  <div class="top"><button class="back" data-go="home" aria-label="뒤로"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button><div class="t">보조사업 기종 견적 보기</div></div>
+  <div class="form" id="quote-form">
+    <div class="muted">생각하시는 기계와 쓰실 곳을 알려 주시면 맞는 기종으로 견적을 드립니다.</div>
+    <div class="row" style="grid-template-columns:150px minmax(0,1fr)">
+      <div class="f"><label for="q-kind">기계 종류</label>
+        <select id="q-kind"><option>트랙터</option><option>콤바인</option><option>이앙기</option><option>관리기</option><option>작업기 등(직접 입력)</option></select></div>
+      <div class="f"><label for="q-model">원하는 모델</label><input id="q-model" placeholder="모르면 비워 두세요"></div>
+    </div>
+    <input id="q-kind-etc" class="hide" placeholder="어떤 기계인지 적어 주세요 (예: 로터리, 퇴비살포기)" aria-label="기계 종류 직접 입력">
+    <div class="f"><div class="lb">어디에 쓰실 건가요? <span style="font-weight:400;color:#5b616b">(여러 개 가능)</span></div>
+      <div class="pills" id="q-uses"></div>
+      <input id="q-scale" placeholder="농사 규모 · 하실 일 (예: 논 3만평, 밭 두둑 작업)" aria-label="농사 규모 · 하실 일"></div>
+    <div class="f"><div class="lb">언제쯤 바꾸실 생각이세요?</div><div class="pills" id="q-when"></div></div>
+    <div class="box"><div class="small" style="color:#4b515a"><span id="q-kind-show">트랙터</span> · 보조사업 기종</div>
+      <div class="big" style="font-size:19px">쓰실 곳에 맞는 기종을 골라<br>사장님이 바로 연락드립니다</div>
+      <div class="small">보조사업 기종은 종류가 많고, 보조금 · 융자도 읍면 공고마다 달라요. 맞는 모델과 금액을 전화로 정확히 안내해 드립니다.</div></div>
+    <div class="who hide">
+      <div class="row"><div class="f"><label for="q-name">성함</label><input id="q-name" autocomplete="name"></div>
+      <div class="f"><label for="q-phone">휴대폰 <span class="req">*</span></label><input id="q-phone" inputmode="tel" autocomplete="tel" placeholder="010-0000-0000"></div></div>
+    </div>
+    <input class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" id="q-hp">
+    <div class="alert hide" id="q-err" role="alert"></div>
+    <button type="button" class="btn blue" id="q-send">바로 연락 받기</button>
+    <label class="check"><input type="checkbox" id="q-ad"><span>새 기계 · 혜택 소식을 문자로 받겠습니다 (선택, 광고 수신 동의)</span></label>
+  </div>
+</section>
+
+<!-- ========== 물어보기 (AI 상담은 나중에) ========== -->
+<section id="v-ask" class="hide">
+  <div class="top"><button class="back" data-go="home" aria-label="뒤로"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button><div class="t">궁금한 거 물어보기</div></div>
+  <div class="form">
+    <div class="muted">기계 · 수리 · 보조사업, 무엇이든 편하게 물어보세요.</div>
+    <a class="btn red" href="tel:0548559090" style="min-height:56px">054-855-9090 전화하기</a>
+    <a class="btn line" id="ask-sms" href="sms:0548559090">문자로 물어보기</a>
+    <div class="small">평일 · 주말 낮에는 바로 받고, 못 받으면 확인하는 대로 다시 연락드립니다.</div>
+  </div>
+</section>
+
+<!-- ========== 신청 끝 ========== -->
+<section id="v-done" class="hide">
+  <div class="top"><div class="t">안동얀마농기계</div></div>
+  <div class="done">
+    <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#15803d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg>
+    <div style="font-size:21px;font-weight:700">신청됐습니다</div>
+    <div class="muted" id="done-msg">사장님이 확인하고 곧 연락드릴게요.</div>
+    <a class="btn red" href="tel:0548559090" style="padding:0 24px;margin-top:6px">급하시면 054-855-9090 전화하기</a>
+    <button class="btn gray" data-go="home" style="padding:0 20px">처음 화면으로</button>
+  </div>
+</section>
+
+<!-- 홈 화면 추가 안내 (아이폰 · 자동 안 될 때) -->
+<div class="modal hide" id="a2hs"><div class="sheet">
+  <div style="font-size:18px;font-weight:700">홈 화면에 추가하는 법</div>
+  <div class="muted" id="a2hs-txt"></div>
+  <button class="btn gray" id="a2hs-close">알겠어요</button>
+</div></div>
+
+</div>
+<script src="/app.js"></script>
+</body>
+</html>
