@@ -50,7 +50,7 @@
   function showWho() { document.querySelectorAll('.who').forEach(function (w) { w.classList.toggle('hide', st.known); }); }
   showWho();
   if (st.code) {
-    get({ a: 'hello', c: st.code }).then(function (r) {
+    get({ a: 'hello', code: st.code }).then(function (r) {
       if (!r || !r.ok || !r.known) { st.known = false; showWho(); return; }
       st.known = true; st.yanmar = !!r.yanmar; st.name = r.name || '';
       if (st.name) $('hello').textContent = st.name + '님, 반갑습니다';
